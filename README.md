@@ -6,7 +6,7 @@ Explicação do código:
 A classe Processo representa um processo do sistema, com seus respectivos pid, owner, tempo e prioridade. O método executar é responsável por simular a execução do processo, mostrando na tela seu pid, owner e tempo restante, e diminuindo seu tempo em 1 segundo a cada execução.
 
 A classe Escalonador representa o
-StarkTV
+Cliente
 continua
 
 escalonador, que possui uma lista de processos (fila) e métodos para adicionar um processo à fila (adicionar_processo), imprimir os processos restantes (imprimir_processos) e escalonar os processos na fila (escalonar_processos).
