@@ -2,7 +2,7 @@
  Projeto de Escalonamento em python Da Aula de SOPA-trab-1
  
 Explicação do código:
-
+<img src="/JesseV22/Escalonamento/blob/main/Captura%20de%20tela%20de%202023-03-29%2021-15-20.png?raw=true" alt="Captura de tela de 2023-03-29 21-15-20.png">
 A classe Processo representa um processo do sistema, com seus respectivos pid, owner, tempo e prioridade. O método executar é responsável por simular a execução do processo, mostrando na tela seu pid, owner e tempo restante, e diminuindo seu tempo em 1 segundo a cada execução.
 
 A classe Escalonador representa o
