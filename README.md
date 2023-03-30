@@ -2,7 +2,7 @@
  Projeto de Escalonamento em python Da Aula de SOPA-trab-1
  
 Explicação do código:
-<img src="/JesseV22/Escalonamento/blob/main/Captura%20de%20tela%20de%202023-03-29%2021-15-20.png?raw=true" alt="Captura de tela de 2023-03-29 21-15-20.png">
+
 A classe Processo representa um processo do sistema, com seus respectivos pid, owner, tempo e prioridade. O método executar é responsável por simular a execução do processo, mostrando na tela seu pid, owner e tempo restante, e diminuindo seu tempo em 1 segundo a cada execução.
 
 A classe Escalonador representa o
@@ -18,3 +18,9 @@ Se o processo tiver prioridade maior que zero, ele será inserido no início da 
 O loop while do método escalonar_processos só será interrompido quando não houver mais processos na fila. Nesse caso, uma mensagem é exibida informando que não existem mais processos na fila.
 
 No código principal, é criada uma instância da classe Escalonador e um menu com quatro opções é exibido na tela. Dependendo da opção selecionada pelo usuário, o método correspondente da classe Escalonador é chamado.
+
+
+
+
+![Captura de tela do aplicativo](https://github.com/JesseV22/Escalonamento/blob/main/Captura%20de%20tela%20de%202023-03-29%2021-15-20.png?raw=true)
+
